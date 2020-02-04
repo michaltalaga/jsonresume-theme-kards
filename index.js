@@ -66,6 +66,10 @@ Handlebars.registerHelper('skillLevel', function(str) {
 			return "75";
 		case "master":
 			return "100";
+		case "legacy":
+			return "50";
+		case "current":
+			return "100";
 		default:
 			return parseInt(str)
 	}
